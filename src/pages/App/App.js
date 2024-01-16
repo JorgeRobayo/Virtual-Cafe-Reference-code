@@ -1,11 +1,11 @@
 import "./App.css";
-import { useState } from "react";
+import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom";
-import { getUser } from "./utilities/users-service";
-import NewOrderPage from "./pages/NewOrderPage/NewOrderPage.jsx";
-import AuthPage from "./pages/AuthPage/AuthPage.jsx";
-import OrderHistoryPage from "./pages/OrderHistoryPage/OrderHistoryPage.jsx";
-import Navbar from "./components/Navbar";
+import { getUser } from "../../utilities/users-service.js";
+import NewOrderPage from "../NewOrderPage/NewOrderPage.jsx";
+import AuthPage from "../AuthPage/AuthPage.jsx";
+import OrderHistoryPage from "../OrderHistoryPage/OrderHistoryPage.jsx";
+import Navbar from "../../components/Navbar.jsx";
 
 
 function App() {
